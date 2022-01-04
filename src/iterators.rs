@@ -1,8 +1,7 @@
-extern crate memrange;
-
-use ::tree;
-use self::memrange::Range;
-use ::node::Node;
+use crate::tree;
+use memrange::Range;
+use alloc::vec::Vec;
+use crate::node::Node;
 
 enum VisitingState {
     VisitLeft,

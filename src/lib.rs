@@ -1,6 +1,6 @@
-#[cfg(test)]
-extern crate rand;
-extern crate memrange;
+#![no_std]
+
+extern crate alloc;
 
 mod node;
 pub mod tree;

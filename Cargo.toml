@@ -2,6 +2,7 @@
 name = "theban_interval_tree"
 version = "0.7.1"
 authors = ["coco <coco@hexgolems.com>"]
+edition = "2021"
 
 description = "A simple Interval Tree implementation"
 
@@ -15,7 +16,7 @@ keywords = ["datastructure","interval", "tree", "map"]
 license-file = "LICENSE"
 
 [dependencies]
-memrange = "0.1.*"
+memrange = { git = "https://github.com/yakuri354/memrange.git" }
 
 [dev-dependencies]
 rand = "0.3.*" # Or a specific version

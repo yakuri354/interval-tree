@@ -1,7 +1,7 @@
-extern crate memrange;
-use std::cmp;
-use std::cmp::Ordering;
-use self::memrange::Range;
+use core::cmp;
+use core::cmp::Ordering;
+use memrange::Range;
+use alloc::boxed::Box;
 
 #[derive(Debug)]
 pub struct Node<D> {

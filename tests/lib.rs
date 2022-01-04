@@ -1,8 +1,3 @@
-extern crate theban_interval_tree;
-extern crate rand;
-extern crate time;
-extern crate memrange;
-
 use time::PreciseTime;
 use memrange::Range;
 use std::cmp;

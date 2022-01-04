@@ -1,7 +1,8 @@
-use node::Node;
+use alloc::boxed::Box;
+use crate::node::Node;
 use memrange::Range;
-use node::{insert,delete,search,min_pair, max_pair, height};
-use iterators::RangePairIter;
+use crate::node::{insert,delete,search,min_pair, max_pair, height};
+use crate::iterators::RangePairIter;
 
 #[derive(Debug)]
 pub struct IntervalTree<D> {

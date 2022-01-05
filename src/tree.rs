@@ -18,7 +18,7 @@ impl <D> IntervalTree<D>{
 /// extern crate theban_interval_tree;
 /// let mut t=theban_interval_tree::IntervalTree::<i32>::new();
 /// ```
-    pub fn new() -> IntervalTree<D>{
+    pub const fn new() -> IntervalTree<D>{
         IntervalTree{root: None}
     }
 
